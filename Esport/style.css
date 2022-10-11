@@ -1,0 +1,258 @@
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto" , sans-serif;
+}
+
+
+.Fcontainer{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 60px;
+    background-color: #222;
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.firstname{
+    color: white;
+    font-weight: 700;
+    font-family: "Roboto" , sans-serif;
+}
+
+.lastname{
+    color: crimson;
+    padding-left: 4px;
+}
+
+.Navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navigation>li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.Navigation>li>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.btrr{
+    display: flex;
+    flex-direction: row;
+    font-size: 250%;
+    padding: 15px;
+    list-style: none;
+    margin-left: 560px;
+}
+
+.btr{
+    color: red;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.esport{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.aee{
+    display: flex;
+    flex-direction: row;
+    font-size: 250%;
+    padding: 15px;
+    list-style: none;
+    margin-left: 560px;
+}
+
+.alter{
+    color: crimson;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ego{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.esportt{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.boom{
+    display: flex;
+    flex-direction: row;
+    font-size: 180%;
+    padding: 15px;
+    list-style: none;
+    margin-left: 560px;
+}
+
+.boomm{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.esportss{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.div1{
+    float: left;
+}
+
+.div2{
+    float: right;
+    width: 44%;
+    margin: 20px;
+}
+
+.roster{
+    color: #ddd;
+    margin: 20px;
+    margin-left: 70px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.roster1{
+    color: #ddd;
+    margin: 20px;
+    margin-left: 20px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.achievement{
+    font-size: 28px;
+    color: #ddd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.prs{
+    color: #ddd;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+}
+
+.div3{
+    float: right;
+    margin-top: 40px;
+}
+
+.div4{
+    width: 43%;
+    margin: 40px;
+    float: left;
+}
+
+.div5{
+    float: left;
+    margin-top: 60px;
+}
+
+.div6{
+    width: 43%;
+    margin: 40px;
+    float: right;
+}
+
+.div7{
+    float: right;
+    margin-top: 57px;
+}
+
+.div8{
+    width: 43%;
+    margin: 20px;
+    float: left;
+}
+
+.footer{
+    padding: 40px 0;
+    background-color: #ddd;
+    list-style-type: none;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer li{
+    display: inline-block;
+    padding: 0 15px;
+}
