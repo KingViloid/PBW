@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<p> Klik tombolnya yaa</p>
+	<button onClick="Fungsi()">Hitung</button>
+	<p id="waktu"></p>
+	
+	<script>
+	function Fungsi()
+	{
+	var x="";
+	var wktApa=new Date().getHours();
+	if (wktApa<20)
+		{
+		x="lha ini siang hari";
+		}
+	else
+		{
+		x="kalau ini malam hari";
+		}
+	document.getElementById("waktu").innerHTML=x;
+	}
+	</script>
+</body>
+</hmtl>
